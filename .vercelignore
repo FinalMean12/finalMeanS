@@ -1,0 +1,24 @@
+# Игнорировать серверную часть
+server/
+# Игнорировать Docker файлы
+docker-compose.yml
+*.dockerfile
+Dockerfile
+# Игнорировать документацию
+*.md
+!README.md
+# Игнорировать тесты
+**/tests/
+**/__tests__/
+**/*.test.ts
+**/*.test.tsx
+**/*.spec.ts
+**/*.spec.tsx
+# Игнорировать node_modules (Vercel устанавливает их сам)
+node_modules/
+# Игнорировать .git
+.git/
+# Игнорировать другие конфигурационные файлы
+.vscode/
+.idea/
+
